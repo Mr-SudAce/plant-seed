@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    border-radius: 10px;
+}
+
+.div label {
+    display: block;
+    padding-left: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.form-control1 {
+    width: 100%;
+    border-radius: 0;
+}
+
+.form-control {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-control:hover {
+    border-bottom: 1px solid black;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+.form-control::placeholder {
+    text-transform: capitalize;
+    font-size: smaller;
+    color: rgb(149, 149, 149);
+}
+
+h3 {
+    padding: 10px 0 10px 10px;
+    border-radius: 10px 10px 0px 0;
+    width: 100%;
+    background-color: rgb(93, 255, 93);
+    font-size: 20px;
+}
+
+.edge {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(217, 217, 217);
+    margin-top: 10px;
+}
